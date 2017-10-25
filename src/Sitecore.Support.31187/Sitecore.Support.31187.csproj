@@ -72,6 +72,7 @@
     <Compile Include="SupportCustomerOrderSearchController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\zzz\Sitecore.Support.31187.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
