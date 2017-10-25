@@ -41,11 +41,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Commerce.UX.CustomerOrderManager">
-      <HintPath>..\..\lib\Sitecore.Commerce.UX.CustomerOrderManager.dll</HintPath>
+    <Reference Include="Sitecore.Commerce.UX.CustomerOrderManager, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\COM.Sitecore.Commerce.UX.CustomerOrderManager.8.2.1\lib\Sitecore.Commerce.UX.CustomerOrderManager.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Commerce.UX.Shared">
-      <HintPath>..\..\lib\Sitecore.Commerce.UX.Shared.dll</HintPath>
+    <Reference Include="Sitecore.Commerce.UX.Shared, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\COM.Sitecore.Commerce.UX.Shared.8.2.1\lib\Sitecore.Commerce.UX.Shared.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SC.Sitecore.ContentSearch.8.2.3\lib\Sitecore.ContentSearch.dll</HintPath>
